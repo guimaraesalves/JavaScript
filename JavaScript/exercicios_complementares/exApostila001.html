@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="faviconletra.ico" type="image/x-icon">
+    <title>Inscrição</title>
+    <style>
+        body {
+            background-color: rgb(155, 153, 150);
+            font: normal, 20px, arial;
+        }
+        h1 {
+            text-align: center;
+            color: rgb(82, 52, 42);
+        }
+        h2 {
+            text-align: center;
+        }
+    </style>
+    <script>
+        var nome
+        var email
+        var num = 0
+
+        function escrever(quadro){
+            info = "Usuário Número " + (++num) + "\n";
+            info += "Nome: " + nome + "\n";
+            info += "E-mail: " + email + "\n\n";
+            quadro.value += info;
+        }
+
+       
+    </script>
+</head>
+<body>
+    <h1>Exercício 01 da apostila: <br/>
+    <strong>Desenvolvendo Web Sites Interativos 
+        com JavaScript</strong></h1>
+
+    <form>
+        <h2>Cadastro</h2>
+        <div align=center>
+            <p><input type="button" value="Digitar Nome"
+                onclick="nome=prompt('Seu Nome', '')">
+            <input type="button" value="Digitar e-mail"
+                onclick="email=prompt('Email', '')">
+            <input type="button" value="Cadastrar"
+                onclick="escrever(this.form.Area)"></p>
+
+        <p><textarea name="Area" id="texto" cols="40" rows="10"></textarea></p>
+        </div>
+        <div align=center>
+            <script>
+                hoje = new Date()
+                dia = hoje.getDate()
+                mes = hoje.getMonth() + 1
+                ano = hoje.getYear() + 1900
+                document.write("<h3>Hoje: " + dia + "/" + mes + "/" + ano + "</h3>")
+            </script>
+            
+            <a href="///home/mateus/Documentos/apostilas/JavaScript/Desenvolvendo Websites Iterativos com Javascript (1).pdf">Apostila</a>
+            
+        
+
+        </div>
+    </form>
+    
+</body>
+</html>

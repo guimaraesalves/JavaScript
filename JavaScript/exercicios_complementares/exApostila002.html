@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon2.ico" type="image/x-icon">
+    <title>Algoritmos em JavaScript</title>
+    <style>
+        body {
+            background-color: cornflowerblue;
+            font-style: normal, color rgb(15, 15, 11), 50px;
+            
+        }
+        h1 {
+            color: rgb(21, 54, 53);
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            text-align: center;
+        }
+        h2 {
+            color: rgb(29, 34, 19);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-align: left;
+        }
+        h3 {
+            text-align: left;
+            color: rgb(49, 31, 27);
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Exercício da apostila: <br>
+    Algoritmos_javascript.
+    </h1>
+    <h2>Exercício de Captura de variáveis</h2>
+    <h3>Strings</h3>
+    <h4> 
+    <p>Dados Pessoais.</p>
+    <ul>
+    <li><script>      
+       var nome = prompt('Sua graça: ')
+       var endereco = prompt('Sua moradia: ')
+       document.write('Nome: ' + nome + "<br>");
+       document.write('Endereço: ' + endereco + "<br>")   
+    </script></li>
+    </ul>
+    </h4>
+    <h3>Array</h3>
+    <p>Lugares que irá visitar.</p>
+    <h4>
+    <script>  
+        local = new Array();
+        local[0] = prompt('Digite o 1º local que você deseja ir: ')
+        local[1] = prompt('Digite o 2º local que você deseja ir: ')        
+        document.write('Viajar para: ' + local)
+    </script>
+    </h4>
+    
+    <h3>Manipulando Números</h3>
+    <h4>
+        <script>
+            var num1 = Number.parseFloat(prompt('digite um número: '))
+            var num2 = Number.parseFloat(prompt('Digite outro número: '))
+            document.write('1º número: ' + num1 + "<br>")
+            document.write('2º número: ' + num2 + "<br>")
+            "<br>"
+            var num3 = num1 + num2
+            document.write('A soma dos números é: ' + num3 + "<br>")
+            var num4 = num1 - num2
+            document.write('A diferença dos números é: ' + num4 + "<br>")
+            var num5 = num1 * num2
+            document.write('O produto dos números é: ' + num5 + "<br>")
+            var num6 = num1 / num2
+            document.write('A divisão dos números é: ' + num6 + "<br>")
+            var num7 = num1 % num2
+            document.write('O resto da divisão dos números é: ' + num7 + '<br>')
+        </script>
+    </h4>
+    <h3>Operadores Relacionais</h3>
+    <h4>
+    <script>
+        var retorno
+
+        retorno = 10 > 15
+        document.write(retorno + "<br>")
+        retorno = 10 < 15
+        document.write(retorno + "<br>")
+
+    </script>
+    </h4>
+</body>
+</html>
