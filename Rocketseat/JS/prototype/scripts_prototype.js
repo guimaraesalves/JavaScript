@@ -32,9 +32,21 @@ let number = 321
 console.log(String(typeof number))
 
 
+
 // Contar quantos caracteres tem uma palavra e quantos digitos tem um número
 let word = "paralelepipido"
 console.log(word.length)
 let num = 1234
 console.log(String(num).length)
+
+
+// Manipulando Strings e Números
+
+// Transformar um número quebrado com 2 casas decimais e trocar o ponto por virgula
+let n = 345.33356789
+console.log(n.toFixed(2).replace(".", ","))
+
+// Transforme letras minúsculas. Faça ao contrário também
+let word1 = "Programar é muito bacana!"
+console.log(word1.toLowerCase().toUpperCase())
 
