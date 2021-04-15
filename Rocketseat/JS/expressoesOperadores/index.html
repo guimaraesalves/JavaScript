@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>if ... else</title>
+   <input id="textinput" name="textinput" value="" type="text">
+   <button onclick="fever()">Confirmar</button>
+
+   <script type="text/javascript">
+    function fever(){
+        var temperature = document.getElementById("textinput").value;
+        alert("A temperatura medida foi de: " + temperature + '°C');
+        if( temperature >= 37.5){
+            alert("Atenção! Febre alta!")
+
+        } else if(temperature < 37.5 && temperature >= 37) {
+            alert("Febre Moderada!")
+        } else {
+            alert("Temperatura Normal")
+        }
+    }
+   </script>
+
+ </head>
+</html>
