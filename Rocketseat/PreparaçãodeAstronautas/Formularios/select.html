@@ -1,0 +1,41 @@
+<!-- 
+    <select>
+
+        - Controle que fornece um menu de opções
+
+    <options>
+
+        - Contém as opções a serem selecionadas
+        - Atributos necessários
+            - value
+
+    ATRIBUTOS ÚNICOS
+    - multiple
+        habilita múltiplas opções
+    - size
+        Quantas opções visíveis?
+-->
+
+<label for="codselect">Qual a Linguagem de Programação?</label>
+<select name="linguagem" id="codselect">
+
+    <option value="">Selecione uma Linguagem</option>
+    <option value="Python">Flask</option>
+    <option value="JavaScript">Node JS</option>
+</select>
+<!-- o valor escolhido "Python(flask) fica guardado no name= Linguagem" linguagem=python por exemplo-->
+
+<br>
+<br>
+<br>
+<!-- mais de uma opção <multiple> e size para definir quantas opções visíveis-->
+<label for="carselect">Qual o modelo do carro</label>
+<br>
+<select name="carmodel" id="carselect" multiple size="4">
+    <option value="fiat">Uno</option>
+    <option value="audi">A3</option>
+    <option value="vw">Jetra</option>
+    <option value="gm">Cobalt</option>
+    <option value="bmw">X6</option>
+</select>
+<!-- o value  é que vai ficar guardado no back-end -->
