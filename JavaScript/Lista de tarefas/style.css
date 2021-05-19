@@ -5,8 +5,8 @@
 }
 body{
 	height: 100vh;
-	background: #03dfff;
-	background: linear-gradient(139deg,#03ddffcb 0%,#e2c8d5b6 90%);
+	background: #122f33;
+	background: linear-gradient(139deg,#ddd5ddcb 0%,#100a20b6 90%);
 }
 .container{
 	position: relative;
@@ -59,12 +59,12 @@ ol li{
 	width: 100%;
 	padding: 18px;
 	margin: 5px 0;
-	background: #e96969bb;
+	background: #ebcdcdbb;
 	font-size: 22px;
 	counter-increment: my-counter;
 }
 ol.Completed li{
-	background: #00ff62;
+	background: #6fbe8d;
 }
 ol li::before{
 	content: counter(my-counter);
