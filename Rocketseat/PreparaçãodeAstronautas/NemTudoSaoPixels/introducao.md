@@ -25,3 +25,17 @@
 * `<angle>` Representa um ângulo: deg, rad, turn
 * `<time>` Representa um tempo: s, ms
 * `<resolution>` Representa resoluções para dispositivos: dpi
+
+# Distâncias absolutas `<length>`
+
+São fixas e não alteram seu valor.
+
+ **Unidade** | **Nome** | **Equivalência**
+ ------- | ------| --------
+cm | Centímetros | 1cm = 96px/2.54
+in | Inches(polegadas) | 1in = 2.54cm = 96px
+px | Pixels | 1px = 1/96th of 1in
+<p>
+
+* O mais comum e mais utilizado é o **px**
+* Não recomendado usar cm.
