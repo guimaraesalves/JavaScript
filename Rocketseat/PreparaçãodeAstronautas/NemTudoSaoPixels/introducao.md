@@ -52,4 +52,31 @@ em | Tamanho da font do pai.
 rem | Tamanho da font do elemento raiz (root/html)
 vw | 1% da viewport width
 vh | 1% da viewport height
+<br>
+<br>
 
+# Porcentagens %
+
+* Em muitos casos é tratado da mesma maneira que as distâncias `<length>`
+* Sempre será relativo a algum valor.
+
+
+# Posições
+
+`<position>` -> valor
+
+Representa um conjunto de coodernadas 2D:
+- top, right, left e center
+
+* Usado para alguns tipos de propriedades
+* Não confundir com a propriedade `position`
+
+# Funções
+
+Em programação, funções são reconhecidas por causar um reaproveitamento de código.
+
+
+* rgb( )
+* hsl( )
+* url( )
+* calc( )
