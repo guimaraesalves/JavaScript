@@ -11,3 +11,10 @@ body {
     background-repeat: no-repeat;
     background-position: left top;
 }
+
+.box::after {
+    content: "Aqui vem alguma mensagem";
+    color: rgb(126, 99, 67);
+    font-size: 50px;
+    
+}
